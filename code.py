@@ -116,9 +116,7 @@ if topics_:
         except:
             break
         
-    dict1['DataDate']=dy
     dict1['TotalNews']=len(corpus)
-    dict1['DateFetched']=datetime.now()
         
     df1=df1.append(dict1, ignore_index=True)
     
